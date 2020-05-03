@@ -1,3 +1,4 @@
 .env
 attachments/
 ziswaf-backend
+.DS_Store
