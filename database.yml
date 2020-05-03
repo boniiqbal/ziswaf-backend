@@ -1,0 +1,15 @@
+development:
+  dialect: mysql
+  host: {{env "DB_HOST"}}
+  database: {{env "DB_NAME"}}
+  user: {{env "DB_USER"}}
+  password: {{env "DB_PASSWORD"}}
+  pool: 5
+
+production:
+  dialect: mysql
+  host: {{env "DB_HOST"}}
+  database: {{env "DB_NAME"}}
+  user: {{env "DB_USER"}}
+  password: {{env "DB_PASSWORD"}}
+  pool: 5

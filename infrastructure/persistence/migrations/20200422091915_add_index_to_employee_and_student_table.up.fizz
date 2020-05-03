@@ -1,0 +1,4 @@
+add_index("employees", "school_id", {})
+add_index("employees", "status", {})
+add_index("employees", ["school_id", "status"], {})
+add_index("students", "school_id", {})

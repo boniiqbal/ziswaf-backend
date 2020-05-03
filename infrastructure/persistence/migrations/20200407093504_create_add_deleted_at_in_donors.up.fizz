@@ -1,0 +1,2 @@
+add_column("donors", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})
+add_column("users", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})

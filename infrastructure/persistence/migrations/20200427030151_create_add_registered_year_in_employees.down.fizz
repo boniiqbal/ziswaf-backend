@@ -1,0 +1,1 @@
+drop_column("employees", "registered_year")

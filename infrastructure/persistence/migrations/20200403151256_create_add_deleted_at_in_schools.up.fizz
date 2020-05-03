@@ -1,0 +1,1 @@
+add_column("schools", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})

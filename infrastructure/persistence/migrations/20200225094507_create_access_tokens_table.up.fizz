@@ -1,0 +1,8 @@
+create_table("access_tokens") {
+    t.Column("id", "integer", {primary: true})
+    t.Column("user_id", "integer", {})
+    t.Column("token", "string", {})
+    t.Column("expired_at", "bigint", {"null": true})
+    t.Column("created_at", "timestamp", {"null": true})
+    t.Column("updated_at", "timestamp", {"null": true})
+}

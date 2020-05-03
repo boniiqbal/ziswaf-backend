@@ -1,0 +1,5 @@
+create_table("villages") {
+    t.Column("id", "bigint", {primary: true})
+    t.Column("district_id", "integer")
+    t.Column("name", "string")
+}

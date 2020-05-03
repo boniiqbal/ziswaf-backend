@@ -1,0 +1,2 @@
+drop_column("schools", "created_by")
+drop_column("schools", "updated_by")

@@ -1,0 +1,7 @@
+create_table("statement_categories") {
+  t.Column("id","integer",{primary: true})
+  t.Column("name","string",{})
+  t.Column("category_id","integer",{})
+  t.Column("created_at","timestamp",{"null": true})
+  t.Column("updated_at","timestamp",{"null": true})
+}

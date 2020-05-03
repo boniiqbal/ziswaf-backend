@@ -1,0 +1,3 @@
+add_column("employees", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})
+add_column("students", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})
+add_column("transactions", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})

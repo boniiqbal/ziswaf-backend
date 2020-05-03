@@ -1,0 +1,1 @@
+add_column("statement_categories", "deleted_at", "timestamp", {"null":true, "after":"updated_at"})

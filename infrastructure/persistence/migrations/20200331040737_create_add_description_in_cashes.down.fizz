@@ -1,0 +1,2 @@
+drop_column("cashs", "description")
+drop_column("cashs", "ref_number")

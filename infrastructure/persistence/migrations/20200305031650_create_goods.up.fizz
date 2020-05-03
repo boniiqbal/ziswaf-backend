@@ -1,0 +1,9 @@
+create_table("goods") {
+  t.Column("id", "integer", {primary:true})
+  t.Column("quantity", "integer", {})
+  t.Column("description", "text", {"null": true})
+  t.Column("status", "integer", {})
+  t.Column("category_id", "integer", {})
+  t.Column("created_at", "timestamp", {"null":true})
+  t.Column("updated_at", "timestamp", {"null":true})
+}

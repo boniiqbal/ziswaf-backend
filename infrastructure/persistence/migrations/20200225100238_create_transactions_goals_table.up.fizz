@@ -1,0 +1,9 @@
+create_table("transaction_goals") {
+    t.Column("id", "integer", {primary: true})
+    t.Column("total", "integer", {})
+    t.Column("month", "integer", {})
+    t.Column("year", "integer", {})
+    t.Column("division_id", "integer", {})
+    t.Column("created_at", "timestamp", {"null": true})
+    t.Column("updated_at", "timestamp", {"null": true})
+}

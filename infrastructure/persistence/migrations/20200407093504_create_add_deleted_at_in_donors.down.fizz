@@ -1,0 +1,2 @@
+drop_column("donors", "deleted_at")
+drop_column("users", "deleted_at")

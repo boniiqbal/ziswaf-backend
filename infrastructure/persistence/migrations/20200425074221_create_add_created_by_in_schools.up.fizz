@@ -1,0 +1,2 @@
+add_column("schools", "created_by", "string", {"null":true, "after":"opened_at"})
+add_column("schools", "updated_by", "string", {"null":true, "after":"created_by"})

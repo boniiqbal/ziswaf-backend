@@ -1,0 +1,3 @@
+drop_column("cashs", "ref_number")
+
+drop_column("transactions", "descriptions")

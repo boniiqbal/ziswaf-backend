@@ -1,0 +1,13 @@
+create_table("schools") {
+  t.Column("id", "integer", {primary:true})
+  t.Column("name", "string", {})
+  t.Column("phone", "string", {})
+  t.Column("email", "string", {})
+  t.Column("pos_code", "integer", {})
+  t.Column("description", "text", {"null":true})
+  t.Column("province_id", "integer", {})
+  t.Column("regency_id", "integer", {})
+  t.Column("opened_at", "date", {"null":true})
+  t.Column("created_at", "timestamp", {"null":true})
+  t.Column("updated_at", "timestamp", {"null":true})
+}

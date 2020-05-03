@@ -1,0 +1,14 @@
+create_table("transactions") {
+    t.Column("id", "integer", {primary: true})
+    t.Column("donor_id", "integer", {})
+    t.Column("division_id", "integer", {})
+    t.Column("category_id", "integer", {})
+    t.Column("item_id", "integer", {})
+    t.Column("item_type", "string", {})
+    t.Column("status", "integer", {"size": 1})
+    t.Column("total", "bigint", {})
+    t.Column("created_by", "string", {"size":100})
+    t.Column("updated_by", "string", {"size":100})
+    t.Column("created_at", "timestamp", {"null": true})
+    t.Column("updated_at", "timestamp", {"null": true})
+}

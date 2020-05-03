@@ -1,0 +1,10 @@
+create_table("categories") {
+    t.Column("id", "integer", {primary: true})
+    t.Column("name", "string", {})
+    t.Column("description", "text", {"null": true})
+    t.Column("status", "integer", {"size": 1})
+    t.Column("created_by", "string", {"size":100})
+    t.Column("updated_by", "string", {"size":100})
+    t.Column("created_at", "timestamp", {"null": true})
+    t.Column("updated_at", "timestamp", {"null": true})
+}

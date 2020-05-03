@@ -1,0 +1,4 @@
+add_column("cashs", "ref_number", "string", {"null":true, "after": "status"})
+
+add_column("transactions", "description", "string", {"null":true, "after": "total"})
+add_column("transactions", "statement_category_id", "integer", {"null":true, "after": "category_id"})

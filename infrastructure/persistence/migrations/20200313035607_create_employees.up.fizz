@@ -1,0 +1,18 @@
+create_table("employees") {
+  t.Column("id", "integer", {primary:true})
+  t.Column("school_id", "integer", {})
+  t.Column("name", "string", {})
+  t.Column("place_of_birth", "string", {})
+  t.Column("birth_of_date", "timestamp", {})
+  t.Column("phone", "string", {})
+  t.Column("email", "string", {})
+  t.Column("address", "text", {"null":true})
+  t.Column("status", "integer", {})
+  t.Column("registered_year", "string", {})
+  t.Column("pos_code", "integer", {})
+  t.Column("province_id", "integer", {})
+  t.Column("regency_id", "integer", {})
+  t.Column("image", "string", {"null":true})
+  t.Column("created_at", "timestamp", {"null":true})
+  t.Column("updated_at", "timestamp", {"null":true})
+}

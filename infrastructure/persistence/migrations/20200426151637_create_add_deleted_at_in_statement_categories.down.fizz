@@ -1,0 +1,1 @@
+drop_column("statement_categories", "deleted_at")

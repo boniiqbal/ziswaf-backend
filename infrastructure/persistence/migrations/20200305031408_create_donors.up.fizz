@@ -1,0 +1,22 @@
+create_table("donors") {
+  t.Column("id", "integer", {primary: true})
+  t.Column("name", "string", {})
+  t.Column("company_name", "string", {"null":true})
+  t.Column("is_company", "integer", {"default":false})
+  t.Column("position", "string", {"null":true})
+  t.Column("email", "string", {})
+  t.Column("address", "text", {})
+  t.Column("phone", "string", {})
+  t.Column("status", "integer", {})
+  t.Column("npwp", "bigint", {"null": true})
+  t.Column("pos_code", "integer", {})
+  t.Column("info", "text", {"null": true})
+  t.Column("province_id", "integer", {})
+  t.Column("regency_id", "integer", {})
+  t.Column("created_at", "timestamp", {"null":true})
+  t.Column("updated_at", "timestamp", {"null":true})
+}
+
+add_index("donors", "name", {})
+add_index("donors", "email", {})
+add_index("donors", "phone", {})

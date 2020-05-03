@@ -1,0 +1,1 @@
+change_column("transactions", "status", "integer", {"default": 1})
